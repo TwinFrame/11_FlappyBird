@@ -34,6 +34,16 @@ public class BirdCollisionHandler : MonoBehaviour
 
 			return;
 		}
+
+		if (collision.TryGetComponent(out AmongUsThing amongUsThing))
+		{
+			Destroy(amongUsThing.gameObject);
+
+			_bird.TryChangeColor(amongUsThing.GetAmongUsColor());
+			_bird.TryAddAmongUs();
+
+			return;
+		}
 	}
 
 	private void OnTriggerExit2D(Collider2D collision)

@@ -3,22 +3,26 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class Score : MonoBehaviour
+public abstract class Score : MonoBehaviour
 {
-	[SerializeField] private Bird _bird;
+	[SerializeField] protected Bird _bird;
 	[SerializeField] private TMP_Text _score;
 
 	private void OnEnable()
 	{
-		_bird.ScoreChanged += OnScoreChanged;
+		SubscribeEvent();
 	}
 
 	private void OnDisable()
 	{
-		_bird.ScoreChanged -= OnScoreChanged;
+		UnsubscribeEvent();
 	}
 
-	private void OnScoreChanged(int score)
+	protected abstract void SubscribeEvent();
+	protected abstract void UnsubscribeEvent();
+
+
+	protected void OnScoreChanged(int score)
 	{
 		_score.text = score.ToString();
 	}

@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 
 [RequireComponent(typeof(BirdMover))]
+[RequireComponent(typeof(BirdSetterColor))]
 
 public class Bird : MonoBehaviour
 {
@@ -11,7 +12,9 @@ public class Bird : MonoBehaviour
 	[SerializeField] private int _maxNumberOfHearts;
 
 	private BirdMover _mover;
+	private BirdSetterColor _birdSetterColor;
 	private int _score;
+	private int _amongUs;
 	private int _currentNumberOfHeart;
 	private int _currentMaxNumberOfHeart;
 
@@ -22,6 +25,7 @@ public class Bird : MonoBehaviour
 
 	public event UnityAction GameOver;
 	public event UnityAction<int> ScoreChanged;
+	public event UnityAction<int> AmongUsChanged;
 	public event UnityAction ChangeHeart;
 
 	private void Awake()
@@ -32,6 +36,7 @@ public class Bird : MonoBehaviour
 	private void Start()
 	{
 		_mover = GetComponent<BirdMover>();
+		_birdSetterColor = GetComponent<BirdSetterColor>();
 
 		_currentMaxNumberOfHeart = _startingNumberOfHearts;
 
@@ -82,8 +87,26 @@ public class Bird : MonoBehaviour
 		return false;
 	}
 
+	public bool TryAddAmongUs()
+	{
+		_amongUs++;
+
+		AmongUsChanged?.Invoke(_amongUs);
+
+		return true;
+	}
+	public bool TryChangeColor(Color color)
+	{
+		_birdSetterColor.ChangeCurrentColor(color);
+
+		return true;
+	}
+
 	public void ResetPlayer()
 	{
+		_amongUs = 0;
+		AmongUsChanged?.Invoke(_amongUs);
+
 		_score = 0;
 		ScoreChanged?.Invoke(_score);
 
@@ -92,6 +115,7 @@ public class Bird : MonoBehaviour
 		ChangeHeart?.Invoke();
 
 		_mover.ResetBird();
+		_birdSetterColor.ResetColor();
 	}
 
 	public void Die()
