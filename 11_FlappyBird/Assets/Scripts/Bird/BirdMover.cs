@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 [RequireComponent(typeof(Rigidbody2D))]
 
@@ -16,6 +17,8 @@ public class BirdMover : MonoBehaviour
 	private Rigidbody2D _rigidbody;
 	private Quaternion _minRotation;
 	private Quaternion _maxRotation;
+
+	public event UnityAction Jump;
 
 	private void Start()
 	{
@@ -36,6 +39,8 @@ public class BirdMover : MonoBehaviour
 
 		if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space))
 		{
+			Jump?.Invoke();
+
 			_rigidbody.velocity = new Vector2(_speed, 0);
 
 			_rigidbody.AddForce(Vector2.up * _tapForce, ForceMode2D.Force);

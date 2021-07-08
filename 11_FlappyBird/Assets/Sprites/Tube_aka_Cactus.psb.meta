@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 91ec07c3d6d251b4481e827306b74c80
+guid: 45813c800a7c2394ea9831115f51b2a1
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -91,51 +91,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: Sasha_Mouse
-    originalName: 
-    pivot: {x: 0.47329545, y: 0.5077901}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 554
-      width: 340
-      height: 259
-    spriteID: c850a51f3f831ec4db70052969c623f6
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -48, y: 554}
-  - name: Sasha_Face
-    originalName: 
-    pivot: {x: 0.5319875, y: 0.39276138}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 453
-      y: 4
-      width: 410
-      height: 508
-    spriteID: 0cb79f6f23f0e0443b07467e58709954
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 453, y: -15}
-  - name: BG_White
+  - name: Spines
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -144,9 +100,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 441
-      height: 542
-    spriteID: 0fd063d9901af3147a182e66204167e9
+      width: 278
+      height: 890
+    spriteID: ed0f9131b07d36943bb796eeda98e862
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -156,7 +112,73 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4, y: 4}
+    uvTransform: {x: 4, y: -72}
+  - name: Cactus_Stroke
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 902
+      width: 252
+      height: 945
+    spriteID: 21dfdbec76221c54e8d26f688e7505df
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -10, y: 902}
+  - name: Catus_Shadow
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 290
+      y: 4
+      width: 242
+      height: 932
+    spriteID: 2074d621972d8db40b8b339b2ae54c75
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 272, y: -1}
+  - name: Cactus_Fill
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 290
+      y: 944
+      width: 241
+      height: 935
+    spriteID: 286fc68f5e6e84c4aa7b0b382b69d877
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 271, y: 939}
   platformSettings:
   - name: DefaultTexturePlatform
     overridden: 0
@@ -240,47 +262,54 @@ ScriptedImporter:
   documentAlignment: 7
   importHiddenLayers: 0
   importedTextureWidth: 1024
-  importedTextureHeight: 1024
-  documentSize: {x: 441, y: 542}
+  importedTextureHeight: 2048
+  documentSize: {x: 278, y: 966}
   paperDollMode: 0
   keepDupilcateSpriteName: 0
   spriteCategoryList:
     categories: []
   textureActualWidth: 1024
-  textureActualHeight: 1024
+  textureActualHeight: 2048
   spritePackingTag: 
   resliceFromLayer: 0
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: Sasha_Mouse
-    spriteName: Sasha_Mouse
+  - name: Spines
+    spriteName: Spines
     isGroup: 0
     parentIndex: -1
-    spriteID: c850a51f3f831ec4db70052969c623f6
-    layerID: 6
-    mosaicPosition: {x: 4, y: 554}
-  - name: Sasha_Face
-    spriteName: Sasha_Face
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 0cb79f6f23f0e0443b07467e58709954
-    layerID: 11
-    mosaicPosition: {x: 453, y: 4}
-  - name: BG_White
-    spriteName: BG_White
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 0fd063d9901af3147a182e66204167e9
-    layerID: 7
+    spriteID: ed0f9131b07d36943bb796eeda98e862
+    layerID: 108
     mosaicPosition: {x: 4, y: 4}
+  - name: Cactus_Stroke
+    spriteName: Cactus_Stroke
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 21dfdbec76221c54e8d26f688e7505df
+    layerID: 6
+    mosaicPosition: {x: 4, y: 902}
+  - name: Catus_Shadow
+    spriteName: Catus_Shadow
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 2074d621972d8db40b8b339b2ae54c75
+    layerID: 4
+    mosaicPosition: {x: 290, y: 4}
+  - name: Cactus_Fill
+    spriteName: Cactus_Fill
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 286fc68f5e6e84c4aa7b0b382b69d877
+    layerID: 2
+    mosaicPosition: {x: 290, y: 944}
   characterData:
     bones: []
     parts: []
     dimension: {x: 0, y: 0}
     characterGroups: []
   generateGOHierarchy: 0
-  textureAssetName: Face Texture
-  prefabAssetName: Face Prefab
-  spriteLibAssetName: Face Sprite Lib
+  textureAssetName: Tube_aka_Cactus Texture
+  prefabAssetName: Tube_aka_Cactus Prefab
+  spriteLibAssetName: Tube_aka_Cactus Sprite Lib
   secondarySpriteTextures: []

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class TubeGenerator : ObjectPool
 {
@@ -10,6 +11,8 @@ public class TubeGenerator : ObjectPool
 	[SerializeField] private float _maxSpawnPositionY;
 
 	private float _elapsedTime = 0;
+
+	public event UnityAction<float> MomentOfGeneration;
 
 	private void Start()
 	{
@@ -33,6 +36,8 @@ public class TubeGenerator : ObjectPool
 				tube.SetActive(true);
 
 				tube.transform.position = spawnPoint;
+
+				MomentOfGeneration?.Invoke(spawnPositionY);
 
 				DisableObjectAboardScreen();
 			}

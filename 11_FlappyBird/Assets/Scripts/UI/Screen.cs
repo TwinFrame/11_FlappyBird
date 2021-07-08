@@ -21,14 +21,28 @@ public abstract class Screen : MonoBehaviour
 		ExitButton.onClick.RemoveListener(OnExitButtonClick);
 	}
 
+	public void Close()
+	{
+		CanvasGroup.alpha = 0;
+		CanvasGroup.blocksRaycasts = false;
+		CanvasGroup.interactable = false;
+		Button.interactable = false;
+		ExitButton.interactable = false;
+	}
+
+	public void Open()
+	{
+		CanvasGroup.alpha = 1;
+		CanvasGroup.blocksRaycasts = true;
+		CanvasGroup.interactable = true;
+		Button.interactable = true;
+		ExitButton.interactable = true;
+	}
+
 	public void OnExitButtonClick()
 	{
 		Application.Quit();
 	}
 
 	protected abstract void OnButtonClick();
-
-	public abstract void Open();
-
-	public abstract void Close();
 }

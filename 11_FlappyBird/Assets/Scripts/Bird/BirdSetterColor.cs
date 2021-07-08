@@ -6,27 +6,28 @@ public class BirdSetterColor : MonoBehaviour
 {
 	[Header("Colors")]
 	[SerializeField] private Color _main;
+	[SerializeField] private Color _shadow;
 	[SerializeField] private Color _secondary;
-	[Header("Parts")]
+
+	[Header("Parts Fill")]
 	[SerializeField] private SpriteRenderer _body;
-	[SerializeField] private SpriteRenderer _leftLeg;
-	[SerializeField] private SpriteRenderer _rightLeg;
-	[SerializeField] private SpriteRenderer _upBeak;
-	[SerializeField] private SpriteRenderer _downBeak;
-	[SerializeField] private SpriteRenderer _eye;
-	[SerializeField] private SpriteRenderer _pupil;
-	[SerializeField] private SpriteRenderer _wing;
+	[SerializeField] private SpriteRenderer _hatUp;
+	[SerializeField] private SpriteRenderer _hatDown;
+
+	[Header("Parts Shadow")]
+	[SerializeField] private SpriteRenderer _bodyShadow;
+	[SerializeField] private SpriteRenderer _hatUpShadow;
+	[SerializeField] private SpriteRenderer _hatDownShadow;
+
 
 	private void Awake()
 	{
 		_body.color = _main;
-		_leftLeg.color = _main;
-		_rightLeg.color = _main;
-		_pupil.color = _main;
+		_hatDown.color = _main;
+		_hatUp.color = _main;
 
-		_upBeak.color = _secondary;
-		_downBeak.color = _secondary;
-		_eye.color = _secondary;
-		_wing.color = _secondary;
+		_bodyShadow.color = _shadow;
+		_hatDownShadow.color = _shadow;
+		_hatUpShadow.color = _shadow;
 	}
 }

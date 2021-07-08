@@ -1,7 +1,40 @@
 fileFormatVersion: 2
 guid: ca2e9e89f2efc6147a7b64ac9b639e3f
 ScriptedImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 8894201953851282084
+    second: AmongUs_Stroke
+  - first:
+      213: 7664807735657788756
+    second: Heart_Fill
+  - first:
+      213: -5402412272178277761
+    second: AmongUs_Fill
+  - first:
+      213: 2013261503205373015
+    second: Button_Empty
+  - first:
+      213: 3760674464881954987
+    second: Button_Restart
+  - first:
+      213: -7811504096720598664
+    second: Button_Exit
+  - first:
+      213: -7814535901586335685
+    second: Heart_Stroke
+  - first:
+      213: -3243065930256096816
+    second: Button_Resize
+  - first:
+      213: -5316896731886317114
+    second: Button_Menu
+  - first:
+      213: 7219830438018454713
+    second: Button_Play
+  - first:
+      213: 3100856887975758742
+    second: Cactus
   externalObjects: {}
   serializedVersion: 2
   userData: 
@@ -91,7 +124,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: Button_Menu
+  - name: AmongUs_Stroke
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -99,10 +132,164 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
+      y: 516
+      width: 124
+      height: 161
+    spriteID: 4a214e3bd8d8e6b70800000000000000
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 516}
+  - name: Heart_Fill
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 136
+      y: 518
+      width: 148
+      height: 131
+    spriteID: 4557c83960ede5a60800000000000000
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 136, y: 518}
+  - name: AmongUs_Fill
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 291
+      y: 518
+      width: 116
+      height: 154
+    spriteID: f725a9269a6c605b0800000000000000
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 291, y: 518}
+  - name: Button_Empty
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 260
+      width: 251
+      height: 250
+    spriteID: 7547682abaa80fb10800000000000000
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 260}
+  - name: Button_Restart
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 263
+      y: 261
+      width: 250
+      height: 249
+    spriteID: ba0db2b3089903430800000000000000
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 263, y: 261}
+  - name: Button_Exit
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 521
+      y: 260
+      width: 251
+      height: 252
+    spriteID: 879c5714966f79390800000000000000
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 521, y: 260}
+  - name: Heart_Stroke
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 778
+      y: 261
+      width: 159
+      height: 143
+    spriteID: b38d86d20013d8390800000000000000
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 778, y: 261}
+  - name: Button_Resize
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 17, y: 20, z: 19, w: 21}
+    rect:
+      serializedVersion: 2
+      x: 4
       y: 4
       width: 251
       height: 249
-    spriteID: ed30c0f62b73fb648bcf9c947cf365d0
+    spriteID: 0d1e9eb08b05ef2d0800000000000000
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -113,7 +300,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4, y: 4}
-  - name: Button_Play
+  - name: Button_Menu
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -124,7 +311,7 @@ ScriptedImporter:
       y: 4
       width: 251
       height: 249
-    spriteID: f72bc12438e35be449acf0719244643c
+    spriteID: 6c11b7ca7969636b0800000000000000
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -135,29 +322,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 263, y: 4}
-  - name: Button_Exit
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 262
-      y: 261
-      width: 249
-      height: 249
-    spriteID: d6780c1a7e892e743b748658a4aecb15
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 261, y: 261}
-  - name: Button_Empty
+  - name: Button_Play
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -168,7 +333,7 @@ ScriptedImporter:
       y: 4
       width: 251
       height: 249
-    spriteID: f98eda860dba45549b1bada1cd159658
+    spriteID: 9b494a4f78df13460800000000000000
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -179,18 +344,18 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 522, y: 4}
-  - name: Button_Restart
+  - name: Cactus
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 261
-      width: 250
-      height: 249
-    spriteID: ee387311b3e6aae40a47b873faaede22
+      x: 781
+      y: 4
+      width: 170
+      height: 170
+    spriteID: 69b4e1b19e4780b20800000000000000
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -200,7 +365,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 3, y: 261}
+    uvTransform: {x: 781, y: 4}
   platformSettings:
   - name: DefaultTexturePlatform
     overridden: 0
@@ -297,41 +462,83 @@ ScriptedImporter:
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
+  - name: Button_Resize
+    spriteName: Button_Resize
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 690633da0e8ca664d84b6c4b0dfb2aa5
+    layerID: 34
+    mosaicPosition: {x: 4, y: 4}
+  - name: Cactus
+    spriteName: Cactus
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ceab994bcc64bee4a8dc1df27147addf
+    layerID: 33
+    mosaicPosition: {x: 781, y: 4}
+  - name: Heart_Stroke
+    spriteName: Heart_Stroke
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 34b97596c97433e49b9b757e074d0b14
+    layerID: 32
+    mosaicPosition: {x: 778, y: 261}
+  - name: Heart_Fill
+    spriteName: Heart_Fill
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 72effbe42f4086948857d9b4cac65507
+    layerID: 31
+    mosaicPosition: {x: 136, y: 518}
+  - name: AmongUs_Stroke
+    spriteName: AmongUs_Stroke
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 0dc9928182560fc4499fde6e8ce1e23a
+    layerID: 30
+    mosaicPosition: {x: 4, y: 518}
+  - name: AmongUs_Fill
+    spriteName: AmongUs_Fill
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5bc61563899b3b34e926bfa003567f7d
+    layerID: 29
+    mosaicPosition: {x: 291, y: 518}
   - name: Button_Restart
     spriteName: Button_Restart
     isGroup: 0
     parentIndex: -1
     spriteID: ee387311b3e6aae40a47b873faaede22
     layerID: 28
-    mosaicPosition: {x: 4, y: 261}
+    mosaicPosition: {x: 263, y: 261}
   - name: Button_Menu
     spriteName: Button_Menu
     isGroup: 0
     parentIndex: -1
     spriteID: ed30c0f62b73fb648bcf9c947cf365d0
     layerID: 25
-    mosaicPosition: {x: 4, y: 4}
+    mosaicPosition: {x: 263, y: 4}
   - name: Button_Play
     spriteName: Button_Play
     isGroup: 0
     parentIndex: -1
     spriteID: f72bc12438e35be449acf0719244643c
     layerID: 22
-    mosaicPosition: {x: 263, y: 4}
+    mosaicPosition: {x: 522, y: 4}
   - name: Button_Exit
     spriteName: Button_Exit
     isGroup: 0
     parentIndex: -1
     spriteID: d6780c1a7e892e743b748658a4aecb15
     layerID: 19
-    mosaicPosition: {x: 262, y: 261}
+    mosaicPosition: {x: 521, y: 261}
   - name: Button_Empty
     spriteName: Button_Empty
     isGroup: 0
     parentIndex: -1
     spriteID: f98eda860dba45549b1bada1cd159658
     layerID: 16
-    mosaicPosition: {x: 522, y: 4}
+    mosaicPosition: {x: 4, y: 261}
   characterData:
     bones: []
     parts: []
