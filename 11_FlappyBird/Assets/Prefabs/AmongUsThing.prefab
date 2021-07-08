@@ -256,7 +256,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2627579428784905961}
   - component: {fileID: 2627579428784905964}
-  - component: {fileID: 2627579428784905965}
+  - component: {fileID: 7314128106321430194}
   - component: {fileID: 2627579428784905966}
   - component: {fileID: 2627579428784905967}
   m_Layer: 0
@@ -301,7 +301,7 @@ CapsuleCollider2D:
   m_Offset: {x: 0.020405054, y: -0.017004192}
   m_Size: {x: 1.2481844, y: 1.5781425}
   m_Direction: 0
---- !u!114 &2627579428784905965
+--- !u!114 &7314128106321430194
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -310,10 +310,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2627579428784905960}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aaed0f07c4c1fde438100cd3e070104d, type: 3}
+  m_Script: {fileID: 11500000, guid: d8254fa55b522394eac6ffa8b59927e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _creationProportion: 6
+  _creationProportion: 0
   _fill: {fileID: 2627579429322188114}
   _colorPalette: {fileID: 2627579428784905967}
 --- !u!114 &2627579428784905966
